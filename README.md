@@ -1,6 +1,22 @@
 # MauiWithMvvmCross
 
-A .NET MAUI mobile application demonstrating MVVM (Model-View-ViewModel) architecture using the MvvmCross framework and Dependency Injection.
+A .NET MAUI mobile application demonstrating MVVM (Model-View-ViewModel) architecture using the MvvmCross enterprise framework with Dependency Injection.
+
+## Overview
+
+This project showcases enterprise-grade MVVM development with .NET MAUI using the mature MvvmCross framework. It demonstrates:
+
+- **MVVM Pattern Implementation**: Clean separation between UI (View), presentation logic (ViewModel), and data (Model)
+- **MvxViewModel Integration**: Leverages MvvmCross's robust base classes and infrastructure
+- **Enterprise MVVM Framework**: Demonstrates the advantages of using a full-featured MVVM framework
+- **Service Locator Pattern**: Static ServiceProvider for flexible service resolution
+- **Counter Application**: Interactive demo showing state management and command binding
+- **Framework Comparison**: Shows how MvvmCross differs from lightweight MVVM approaches
+
+This is one of three demonstration projects comparing different MVVM frameworks:
+- **MauiWithMvvm** - Community Toolkit MVVM with constructor injection (lightweight, best practice)
+- **MauiWithPrism** - Service locator pattern with static ServiceProvider (flexible)
+- **MauiWithMvvmCross** (this project) - MvvmCross enterprise framework integration (feature-rich)
 
 ## Features
 
